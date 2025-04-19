@@ -1,0 +1,42 @@
+.container {
+    height: 490px;
+    width: 490px;
+    border-radius: 50%;
+    border: 2px solid plum;
+    position: relative;
+    top: 90px;
+    left: 550px;
+    background-color: rgb(233, 64, 120);
+}
+
+.container:hover {
+    box-shadow: 5px 5px 10px pink;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+body {
+    background-color: pink;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    left: 180px;
+}
+
+.user {
+    position: relative;
+    left: 70px;
+    padding: 10px 10px 10px 10px;
+    font-size: x-large;
+    margin: 50px auto 50px auto;
+    color: white;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+}

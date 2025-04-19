@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #6d1107;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #f8d9e0e;
+}
+
+button {
+    background-color: orangered;
+    box-shadow: 5px 5px 10px rgb(241, 7, 46);
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+#logos {
+    color: orangered;
+    font-size: 50px;
+}
+
+a {
+    margin-right: 240px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 300;
+}
+
+a:hover {
+    color: #ff0000
+}
+
+.hero {
+    color: #fff;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    /*changes the position on the cross axis*/
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-position: top;
+    /*changes the position on the main axis*/
+    background-repeat: no-repeat;
+    background-image: url(../public/Screenshot\ 2025-04-16\ 124714.png);
+    background-color: rgb(190, 45, 69);
+    border-radius: 10px;
+}
+h1:hover {
+    transform: skew(10deg, -5deg);
+}
+
+
+h1 {
+    position: relative;
+    top: 225px;
+    color: orangered;
+    font-weight: bolder;
+    font-size: 80px;
+
+}
+
+.container {
+    height: 500px;
+    width: 1500px;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#box1 {
+    height: 150px;
+    width: 650px;
+    border: 4px solid white;
+    border-radius: 20px;
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+#box1:hover {
+    box-shadow: 5px 5px 10px pink;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+#box2 {
+    height: 150px;
+    width: 650px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    top: 35px;
+    right: 30px;
+}
+
+#box2:hover {
+    box-shadow: 5px 5px 10px pink;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+#box3 {
+    height: 150px;
+    width: 650px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+
+#box3:hover {
+    box-shadow: 5px 5px 10px pink;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+#box4 {
+    height: 150px;
+    width: 650px;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    top: 70px;
+    right: 30px;
+}
+
+#box4:hover {
+    box-shadow: 5px 5px 10px pink;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.minibox1 {
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    top: 9px;
+    left: 5px;
+    background-image: url(../public/face.png);
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+.minibox2 {
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    top: 9px;
+    left: 5px;
+    background-image: url(../public/hair.png);
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+.minibox3 {
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    top: 9px;
+    left: 5px;
+    background-image: url(../public/hand.png);
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+.minibox4 {
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    top: 9px;
+    left: 5px;
+    background-image: url(../public/legs.png);
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+h2 {
+    color: rgb(211, 36, 65);
+    font-weight: bold;
+    position: relative;
+    top: 0px;
+    left: 100px;
+    bottom: 20px;
+    
+}
+
+.simple-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6d2e4b;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.simple-footer:hover {
+    color: #ff6f91;
+}
