@@ -1,0 +1,63 @@
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(152, 16, 16);
+    position: fixed;
+    top:0px;
+
+}
+#header h1{
+    color: white;
+    text-align: center;
+    text-decoration: overline;
+}
+
+
+.container{
+    display: flex;
+    margin-left: 20px;
+
+}
+#box1{
+    height: 500px;
+    width: 400px;
+    border: 2px solid rgb(222, 30, 94);
+    position: relative;
+    top:150px;
+    left: 350px;
+    border-radius: 40px;
+    /* background-color: aqua; */
+    background-image:url(./public/rose.png);
+    background-size:cover;
+    background-repeat:no repeat;
+    box-shadow: 5px 5px 10px #ffe6e6;
+} 
+#box1:hover {
+    transform: scale(1.1);
+    transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+#box2{
+    height: 500px;
+    width: 400px;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    top:150px;
+    left: 450px;
+    border-radius: 40px; 
+    /* background-color: blue;*/
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px  #ffe6e6);
+} 
+p{
+  font-family: 'Georgia', serif;
+  font-size: 1.6em;
+  color: #b30000; /* deep rose red */
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  background: linear-gradient(to right, #fff0f5, #ffe6e6);
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+}
