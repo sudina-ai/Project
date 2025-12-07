@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rock Paper Scissors - Simple</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>Rock • Paper • Scissors</h1>
+
+    <section class="choices">
+      <h2>Pick one:</h2>
+      <div class="buttons">
+        <button class="choice" data-choice="rock">Rock</button>
+        <button class="choice" data-choice="paper">Paper</button>
+        <button class="choice" data-choice="scissor">Scissors</button>
+      </div>
+    </section>
+
+    <section class="display">
+      <div class="box">
+        <h3>You</h3>
+        <div id="youChoice" class="choice-display">-</div>
+      </div>
+
+      <div class="box">
+        <h3>Computer</h3>
+        <div id="compChoice" class="choice-display">-</div>
+      </div>
+    </section>
+
+    <section class="result">
+      <h2 id="resultText">Make your choice</h2>
+    </section>
+
+    <section class="score">
+      <div class="score-item">
+        <strong id="youScore">0</strong>
+        <div>You</div>
+      </div>
+      <div class="score-item">
+        <strong id="compScore">0</strong>
+        <div>Computer</div>
+      </div>
+      <div class="score-item">
+        <strong id="draws">0</strong>
+        <div>Draws</div>
+      </div>
+    </section>
+
+    <button id="resetBtn" class="reset">Reset</button>
+
+    <p class="note">This is HTML + CSS only. Add JavaScript later that listens for `.choice` clicks and updates the `id` elements.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+/* Simple styles for beginners */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f4f8;
+    color: #222;
+}
+
+.wrap {
+    max-width: 640px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.choices h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.choice {
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: 2px solid #5b6cff;
+    background: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.choice:hover {
+    background: #5b6cff;
+    color: white;
+}
+
+/* simple display area */
+.display {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.box {
+    background: #f7f8fb;
+    padding: 12px;
+    border-radius: 6px;
+    width: 180px;
+    text-align: center;
+}
+
+.choice-display {
+    font-size: 1.2rem;
+    padding: 10px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result {
+    text-align: center;
+    margin: 12px 0;
+}
+
+#resultText {
+    color: #334155;
+}
+
+.score {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 14px 0;
+}
+
+.score-item {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    color: white;
+    padding: 10px 14px;
+    border-radius: 6px;
+    text-align: center;
+    min-width: 80px;
+}
+
+.reset {
+    display: block;
+    margin: 12px auto 6px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    background: white;
+    cursor: pointer;
+}
+
+.note {
+    font-size: 0.9rem;
+    color: #6b7280;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* small screens */
+@media (max-width:420px) {
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .score {
+        flex-direction: column;
+    }
+}
